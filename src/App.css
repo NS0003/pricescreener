@@ -1,0 +1,55 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.timeframe-buttons {
+  margin: 20px;
+}
+
+.timeframe-buttons button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  border-radius: 5px;
+}
+
+.timeframe-buttons button:hover {
+  background-color: #21a1f1;
+}
+
+.range-switcher {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.range-switcher button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  border-radius: 5px;
+}
+
+.range-switcher button:hover {
+  background-color: #21a1f1;
+}
+
+.timeframe-indicator {
+  font-size: 0.8em;
+  color: #61dafb;
+}
